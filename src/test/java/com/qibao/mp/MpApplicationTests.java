@@ -1,6 +1,5 @@
 package com.qibao.mp;
 
-import com.qibao.mp.mapper.UserMapper;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -12,14 +11,14 @@ import java.util.List;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class MpApplicationTests {
-    @Autowired
+/*    @Autowired
     private UserMapper  userMapper;
 
     @Test
     public void contextLoads() {
         List userlist =  userMapper.selectList(null);
         System.out.println(userlist.toString());
-    }
+    }*/
 
 }
 
